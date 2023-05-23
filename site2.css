@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: darkgray;
+
+    padding: 8px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-family: roboto; sans-serif;
+}
+
+.logo {
+    width: 100px
+}
+
+
+,menu li{
+    display: inline;
+    margin: 0 8px;
+    cursor: pointer
+
+
+}
+
+@midia(max-w:376px){
+    .header{
+        color: red;
+        flex-direction: column;
+        flex-direction: row-reverse;
+    }
+
+}

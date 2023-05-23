@@ -1,0 +1,12 @@
+body {
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+    background-color: aqua;
+
+}
+
+div{
+    border: 10px solid red;
+    margin: 10px;
+    padding: 10px;
+}
